@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*aqui inicia el index*/
+.body1{
+    height: 100vh;
+    background-image: url(../img/mujer\ oficina1.jpg);
+    background-repeat: no-repeat;
+    background-size: 425px 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#title_index{
+    display: flex;
+    flex-direction: row;
+}
+
+#title_index i{
+    display: flex;
+    height: 50px;
+    width: 40px;
+    align-items: center;
+    font-size: 45px;
+    margin-right: 1rem;
+}
+
+p{
+    width: 250px;
+}
+
+#main1{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 15px;
+    font-size: 18px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    color: rgb(0, 153, 255);
+}
+
+a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.475);
+}
+/*aqui termina el index*/
+
+
+
+/*aqui inicia el login*/
+.body_login{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.icon_time{
+    padding: 1.5rem;
+    display: flex;
+    flex: 1;
+}
+
+.icon_time i{
+    margin-right: 1rem;
+    color: rgb(83, 142, 224);
+}
+
+.email-login{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: gray;
+}
+
+.cuadro-login{
+    border-radius: 5px;
+    height: 2rem;
+    border-color: #0072FF;
+    color: #0072FF;
+    background-color: #0073ff25;
+}
+
+.password-login{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: gray;
+}
+
+.cuadro-password{
+    border-radius: 5px;
+    height: 2rem;
+    justify-content: center;
+    background-color: #0073ff25;
+    border-color: #0072FF;
+    color: #0072FF;
+}
+
+.pregunta{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.button-login{
+    height: 2rem;
+    width: 18.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    background-color: #0072FF;
+    border-color: #0072FF;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+}
+
+.or div{
+    display: flex;
+    background-color: #0073ff25;
+    width: 15rem;
+    height: 0.1rem;
+}
+
+.or p{
+    display: flex;
+    justify-content: center;
+    color: #0072FF;
+    font-family:'Inter', sans-serif ;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+#cuadro1{
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+#cuadro1 img{
+    width: 2rem;
+}
+
+#pregunta{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button-register{
+    height: 2rem;
+    width: 18.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    background-color: #0073ff25;
+    border-color: #0072FF;
+    border-radius: 5px;
+    color: blue;
+    margin-bottom: 4rem;
+    font-family: 'inter' sans-serif;
+}
+/*aqui termina el login*/
+
+
+/*aqui inicia el profile*/
+.body2{
+    height: 100vh;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor{
+
+    display: flex;
+    height: 4rem;
+    width: 318px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contenedor i{
+    color: rgb(83, 142, 224);
+}
+
+.flecha{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.img-mujer{
+    border-radius: 15px ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+
+    background-image: url(../img/secretaria.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.punto-rojo{
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.main-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 210px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.foto{
+    align-items: flex-end;
+    justify-content: right;
+    display: flex;
+    background-image: url(../img/elon\ musk.jfif);
+    background-size: 100%;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.punto-verde{
+    box-sizing: border-box;
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.bandera{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.bandera img{
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.icono-star{
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+    height: 20px;
+}
+
+.icono-star i{
+    color: white;
+    background-color: #0072FF;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.euro{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+}
+.icono-euro{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+}
+
+.icono-euro i{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #0072FF;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 2px;
+}
+
+.articulos{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.articulos p{
+    font-size: small;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.art{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 100px;
+    justify-content: space-around;
+
+}
+#icono-hoja{
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.283);
+}
+
+#icono-hoja i{
+    font-size: 20px;
+    color: green;
+}
+
+#icono-video{
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.299);
+}
+
+#icono-video i{
+    font-size: 20px;
+    color: red;
+}
+
+
+#icono-audio{
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.299);
+}
+
+#icono-audio i{
+    font-size: 20px;
+    color: orange;
+}
+
+#caracteristicas{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+#caracteristicas section{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.cuadro1{
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    height: 2rem;
+    border-color: #0072FF;
+    color: #0072FF;
+    background-color: #0073ff25;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+}
+
+.text{
+    margin: 50px;
+    display: flex;
+    width: 240px;
+}
+
+
+.color-text{
+    color:#0072FF;
+}
+
+.cuadro-flotante{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-top: 0.5rem;
+    padding: 1rem;
+    height: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.267);
+    justify-content: space-around;
+}
+
+.icono-flotante1 i{
+color: #0072ff;
+font-size: 1.3rem;
+}
+.icono-flotante i{
+    font-size: 1.3rem;
+    color: gray;
+}
+.icono-flotante2 i{
+color: white;
+background-color: #0072ff;
+padding: 0.2rem;
+border-radius: 0.1rem;
+font-size: 1.1rem;
+}
+.img-iconoflotante{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+

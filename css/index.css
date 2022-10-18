@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+.Primer-contenedor-Menu-principal{
+    background-color: palevioletred;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.sidebar a{
+    display: flex;
+    flex-direction: column;
+    font-family:'Inter', sans-serif;
+    color: rgb(64, 11, 11);
+    margin-left: 10rem;
+}
+
+.sidebar ul{
+    list-style: none;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.sidebar li{
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: rgb(64, 11, 11);
+}
+
+.sidebar li a:hover{
+    padding: 15px 15px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
